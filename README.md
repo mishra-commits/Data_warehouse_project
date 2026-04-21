@@ -59,6 +59,8 @@ The project follows a structured data model:
 * Clean and structured data model
 
 📂 Repository Structure
+
+
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
