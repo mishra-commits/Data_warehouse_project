@@ -31,26 +31,14 @@ Develop a centralized data warehouse using SQL Server to consolidate data from m
 
 ---
 
-## 📊 BI: Analytics & Reporting (Data Analysis)
 
-#### 🎯 Objective
 
-Develop SQL-based analytics and dashboards to generate meaningful insights for business decision-making.
-
-#### 📈 Key Analysis Areas
-
-* Sales performance analysis
-* Customer segmentation
-* Product performance tracking
-* Regional analysis
-* Monthly and yearly trends
 
 ---
 
 ## 🛠 Tools & Technologies
 
 * SQL Server (SSMS)
-* Microsoft Power BI
 * Excel / CSV datasets
 
 ---
@@ -69,39 +57,28 @@ The project follows a structured data model:
 * End-to-end data pipeline (raw data → insights)
 * Optimized SQL queries for performance
 * Clean and structured data model
-* Interactive Power BI dashboard
 
----
-
-## 📊 Sample SQL Query
-
-```sql
-SELECT region, SUM(sales_amount) AS total_sales
-FROM sales
-GROUP BY region;
-```
-
----
-
-## 📈 Dashboard Insights
-
-* Identified top-performing regions and products
-* Analyzed revenue trends over time
-* Segmented customers based on purchasing behavior
-
----
-
-## 🚀 Future Enhancements
-
-* Real-time data integration
-* Advanced analytics using Python
-* Cloud integration (Azure / AWS)
-
+📂 Repository Structure
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
 ---
 
 ## 💼 About Me
 
-Aspiring Data Analyst with hands-on experience in SQL, Power BI, and data visualization. Passionate about transforming raw data into actionable insights.
+ Data Analyst with hands-on experience in SQL, Power BI, and data visualization. Passionate about transforming raw data into actionable insights.
 
 ---
 
