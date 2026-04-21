@@ -13,37 +13,39 @@ This project focuses on building a modern data warehouse and generating actionab
 
 ---
 
-## 🚀 Project Requirements
-
-# 🏗️ Building the Data Warehouse (Data Engineering)
-
 # 🎯 Objective
 
 Develop a centralized data warehouse using SQL Server to consolidate data from multiple sources and enable efficient analytical reporting.
 
 # 📋 Specifications
 
-* Data Sources:** Import data from multiple systems (CSV / ERP / CRM)
-* Data Cleaning:** Handle missing values, duplicates, and inconsistencies
-* Data Integration:** Merge datasets into a unified data model
-* Data Modeling:** Design fact and dimension tables for analysis
-* Documentation:** Maintain clear and structured documentation
+* Data Sources: Import data from multiple systems (CSV / ERP / CRM)
+* Data Cleaning: Handle missing values, duplicates, and inconsistencies
+* Data Integration: Merge datasets into a unified data model
+* Data Modeling: Design fact and dimension tables for analysis
+* Documentation: Maintain clear and structured documentation
 
 ---
 
 # 🛠 Tools & Technologies
 
 * SQL Server (SSMS)
-* Excel / CSV datasets
+* CSV datasets
 
 ---
 
-# 🧱 Data Model
+# BI: Analytics & Reporting (Data Analysis)
 
-The project follows a structured data model:
+Objective
 
-* **Fact Table:** Sales data
-* **Dimension Tables:** Customers, Products, Date
+Develop SQL-based analytics to deliver detailed insights into:
+
+* Customer Behavior
+* Product Performance
+* Sales Trends
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+
 
 ---
 
@@ -53,21 +55,30 @@ The project follows a structured data model:
 * Optimized SQL queries for performance
 * Clean and structured data model
 
-📂 Repository Structure
+# 📂 Repository Structure
 
 
 # data-warehouse-project/
 
 
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+
 ├── scripts/                            # SQL scripts for ETL and transformations
+
 ├── bronze/                         # Scripts for extracting and loading raw data
+
 ├── silver/                         # Scripts for cleaning and transforming data
+
 ├── gold/                           # Scripts for creating analytical models
+
 ├── tests/                              # Test scripts and quality files
+
 ├── README.md                           # Project overview and instructions
+
 ├── LICENSE                             # License information for the repository
+
 ├── .gitignore                          # Files and directories to be ignored by Git
+
 └── requirements.txt                    # Dependencies and requirements for the projec
 
 
